@@ -12,7 +12,7 @@ public class LoginUser {
         String Password = "ipchile";
 
         // Bucle Inicio De Sesion 3 Intentos
-        for (int i = 3; i > -1; i--) {                  // En este caso va del 3 al 0 (1 - 0- -1)
+        for (int i = 2; i > -2; i--) {
 
             // Limpiador de pantalla con BUCLE
             for (int j = 0; j < 10; j++) {
@@ -57,7 +57,7 @@ public class LoginUser {
              break;
                
                 // Se bloqueara la cuenta al llegar a los 3 intentos que es 0
-            } else if (i == -1) {
+            } else if (i == 0) {
                 
                 System.out.println("======================");
                 System.out.println("  ¡HAS SIDO BLOQUEADO! ");
